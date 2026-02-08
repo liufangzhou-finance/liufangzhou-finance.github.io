@@ -1,1 +1,76 @@
-<h1>你好，这是我的个人主页！</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fangzhou Liu</title>
+  <style>
+    body { max-width: 860px; margin: 48px auto; padding: 0 18px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; line-height: 1.6; color: #1f2937; }
+    header { margin-bottom: 28px; }
+    h1 { margin: 0; font-size: 34px; }
+    .sub { margin-top: 8px; color: #4b5563; }
+    nav a { margin-right: 14px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    h2 { margin-top: 34px; font-size: 22px; }
+    .item { margin: 10px 0; }
+    .muted { color: #6b7280; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fangzhou Liu</h1>
+    <div class="sub">Assistant Professor of Finance · Shanghai University of Finance and Economics</div>
+    <div class="sub">Email: <a href="mailto:liu.fangzhou@mail.shufe.edu.cn">liu.fangzhou@mail.shufe.edu.cn</a></div>
+    <nav style="margin-top:12px;">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#papers">Papers</a>
+      <a href="#teaching">Teaching</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am an Assistant Professor of Finance at the Shanghai University of Finance and Economics.
+      My research lies at the intersection of corporate finance, product markets, and innovation.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>
+      I study how information intermediaries and managerial narratives influence firms’ real decisions and long-run value creation,
+      using large language models and textual analysis of earnings call transcripts.
+    </p>
+  </section>
+
+  <section id="papers">
+    <h2>Papers</h2>
+    <div class="item">
+      <strong>Managerial Horizon and Corporate Innovation</strong> <span class="muted">(Working Paper)</span><br/>
+      <span class="muted">Abstract: ...</span>
+    </div>
+    <div class="item">
+      <strong>Analyst Coverage and Innovation</strong> <span class="muted">(Working Paper)</span><br/>
+      <span class="muted">Abstract: ...</span>
+    </div>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ul>
+      <li>Corporate Finance</li>
+      <li>Investments</li>
+      <li>Financial Reporting and Security Analysis</li>
+    </ul>
+  </section>
+
+  <footer style="margin-top:46px;" class="muted">
+    © <span id="y"></span> Fangzhou Liu
+  </footer>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
